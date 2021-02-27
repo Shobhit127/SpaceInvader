@@ -23,7 +23,7 @@ icon = pygame.image.load('ufo.png')
 pygame.display.set_icon(icon)
 
 # Player
-playerImg = pygame.image.load('player.png')
+playerImg = pygame.image.load('spaceship.png')
 playerX = 370
 playerY = 480
 playerX_change = 0
@@ -37,7 +37,7 @@ enemyY_change = []
 num_of_enemies = 6
 
 for i in range(num_of_enemies):
-    enemyImg.append(pygame.image.load('enemy.png'))
+    enemyImg.append(pygame.image.load('alien.png'))
     enemyX.append(random.randint(0, 736))
     enemyY.append(random.randint(50, 150))
     enemyX_change.append(4)
